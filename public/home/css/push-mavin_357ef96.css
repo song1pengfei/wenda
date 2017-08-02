@@ -1,0 +1,106 @@
+.wgt-asker-push-mavin {
+    margin-top: 25px;
+    border-top: 1px solid #e8ecee;
+    padding: 30px 0 0;
+    display: none
+}
+
+.wgt-asker-push-mavin .push-mavin-tit {
+    color: #7a8f9a;
+    font-size: 14px;
+    line-height: 34px
+}
+
+.wgt-asker-push-mavin .push-mavin-item {
+    height: 50px;
+    padding: 30px 0;
+    margin-left: 76px;
+    border-bottom: 1px dotted #e9e9e9;
+    position: relative
+}
+
+.wgt-asker-push-mavin .push-mavin-item:last-child {
+    border-bottom: 0
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    left: -76px;
+    top: 30px
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info {
+    padding-right: 150px
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info p {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info p.f-black {
+    color: #888
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info .push-mavin-name {
+    color: #333
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info .push-mavin-btn {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    width: 98px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    border: 1px solid #dce1e5;
+    text-align: center;
+    color: #34b458;
+    border-radius: 3px;
+    text-decoration: none
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info .push-mavin-btn:hover {
+    border-color: #34b458;
+    background: #34b458;
+    color: #fff
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info .push-mavin-btn.disbale {
+    border-color: #d2dbdf;
+    background: #d2dbdf;
+    color: #fff;
+    cursor: default
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info .push-mavin-btn.disbale em {
+    width: 11px;
+    height: 5px;
+    display: inline-block;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin: 0 5px 0 0;
+    top: -2px;
+    position: relative;
+    transform: rotate(-45deg)
+}
+
+.wgt-asker-push-mavin .push-mavin-item .push-mavin-info .push-mavin-btn.disbale:hover {
+    border-color: #d2dbdf;
+    background: #d2dbdf;
+    color: #fff
+}

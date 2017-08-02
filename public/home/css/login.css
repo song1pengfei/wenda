@@ -1,0 +1,206 @@
+body{
+	margin:0;
+	padding:0;
+	font:14px 'Microsoft Yahei';
+	color:#656E6E;
+}
+a{
+	color:#656E6E;
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+}
+button,input{
+	border:none;
+	outline-style:none;
+}
+.dp{
+	display:inline-block;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.center{
+	width:1000px;
+	margin:0 auto;
+}
+.header{
+	width:100%;
+	height:60px;
+	padding:10px 0 ;
+}
+.header .logo{
+	
+}
+.header .wel{
+	height:60px;
+	font:400 24px/60px 'microsoft yahei';
+	color:#000;
+	margin-left:20px;
+}
+.header .research a{
+	background:url('../images/notice.png') no-repeat left;
+	padding-left:25px;
+	margin-top:45px;
+}
+.main{
+	width:580px;
+	height:438px;
+    margin-left:200px;
+	background:#BE1355 url('../images/timg (1).jpg') no-repeat center;
+}
+.main .window{
+	width:330px;
+	background:#fff;
+	margin-top:40px;
+}
+.main .title{
+	width:100%;
+	font-size:16px;
+	font-weight:400px;
+	height:40px;
+	line-height: 40px;
+	border-bottom:1px solid #eee;
+}
+.main .tit{
+	width:160px;
+	text-align: center;
+}
+.main .bor{
+	height:16px;
+	margin-top:13px;
+	border-left:1px solid #eee;
+}
+.main  .item{
+	width:100%;
+	display: none;
+}
+.main  .erweima .image{
+	width:160px;
+	height:160px;
+	margin:20px auto;
+	border:1px solid #eee;
+	background:url('../images/show.png') no-repeat center;
+}
+.main .erweima p{
+	width:100%;
+	text-align:center;
+	height:30px;
+	line-height: 30px;
+}
+.main .erweima span{
+	color:red;
+}
+.main .erweima .slogen{
+	width:240px;
+	height:30px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.main .erweima .ige{
+	height:30px;
+	line-height: 30px;
+	padding-left:30px;
+	margin:0 5px;
+}
+.main .erweima .inp{
+	background:url('../images/11.png') no-repeat left;
+}
+.main .erweima .fast{
+	background:url('../images/12.png') no-repeat left;
+}
+.main .erweima .safe{
+	background:url('../images/13.png') no-repeat left;
+}
+.main .user .cen{
+	width:290px;
+	padding:0 20px;
+}
+.main .user .col{
+	width:100%;
+	height:30px;
+}
+.main .user .name{
+	margin-top:40px;
+}
+.main .user .pwd{
+	margin:28px 0;
+}
+.main .user .img{
+	width:35px;
+	height:35px;
+	border:1px solid #ccc;
+}
+.main .user .nameImg{
+	background:#F3F3F3 url('../images/14.png') no-repeat center;
+}
+.main .user .pwdImg{
+	background:#F3F3F3 url('../images/15.png') no-repeat center;
+}
+.main .user input{
+	width:240px;
+	height:33px;
+	border:1px solid #ccc;
+	padding-left:10px;
+}
+.main .user button{
+	width:100%;
+	height:40px;
+	background:red;
+	color:white;
+	margin-bottom:20px;
+}
+.main .footer{
+	width:300px;
+	height:40px;
+	padding:10px 15px;
+	border-top:1px solid #eee;
+}
+.main .qq{
+	height:30px;
+	line-height: 30px;
+	padding-left: 20px;
+	background:url('../images/qq.png') no-repeat left;
+	margin-right: 10px;
+}
+.main .weixin{
+	height:30px;
+	line-height: 30px;
+	padding-left: 20px;
+	background:url('../images/weixin.png') no-repeat left;
+}
+.main .reg{
+	height:30px;
+	line-height: 30px;
+	background:url('../images/go.png') no-repeat left;
+	padding-left:20px;
+	color:red;
+}
+.footer{
+	width:100%;
+	height:100px;
+}
+.footer .link{
+	width:800px;
+	height:40px;
+	line-height:40px;
+	margin:0 auto;
+}
+.footer .link span{
+	margin:0 5px;
+}
+.footer .copyright{
+	width:350px;
+	margin:0 auto;
+	height:30px;
+	line-height: 30px;
+}
+
+/* 输入正确的提示 */
+.ok{color:green;background: url('../images/ok.gif') no-repeat 0 3px;padding-left: 20px;margin-left: 10px;}
+/* 输入错误的提示 */
+.no{color:red;background: url('../images/no.gif') no-repeat 0 3px;padding-left: 20px;margin-left: 10px;}

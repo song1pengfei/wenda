@@ -1,0 +1,268 @@
+﻿
+.main {
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #437ecb;
+    text-decoration: none;
+}
+
+.gray {
+    background: #f4f4f4;
+    color: #333;
+    padding: 5px 8px;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+}
+
+.show-hid {
+    color: #2c81ff;
+    padding: 5px 38px;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+    cursor: pointer;
+}
+
+.show-hid img {
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.article {
+    padding: 10px 0 20px;
+    margin-left: 18px;
+    color: #666;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+    font-size: 12px;
+    line-height: 24px;
+}
+
+/*.gray img {*/
+    /*vertical-align: top;*/
+    /*margin-right: 7px;*/
+    /*margin-left: 13px;*/
+    /*margin-top: 11px;*/
+/*}*/
+
+.you-desc {
+    vertical-align: middle;
+    /*background: url(../images/bg/xia.png) no-repeat center 0;*/
+    /*width: 7px;*/
+    /*height: 13px;*/
+    margin-right: 10px;
+}
+
+.bottom-desc {
+    vertical-align: middle;
+    /*background: url(../images/bg/xia.png) no-repeat center 0;*/
+    margin-right: 6px;
+}
+
+.main-b {
+    overflow: hidden;
+}
+
+.main-b .content {
+    float: left;
+    width: 670px;
+}
+
+.main-b .side-bar {
+    float: right;
+    width: 270px;
+}
+
+.main-b {
+    width: 980px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.main-b .side-bar {
+    width: 240px;
+    float: left;
+}
+
+.main-b .content {
+    float: right;
+    width: 710px;
+    min-height: 500px;
+    font-size: 14px;
+}
+
+/*.side-bar .side-tit,*/
+.side-bar ul li {
+    border-top: 1px solid #f0f0f0;
+}
+
+.side-bar .side-tit {
+    font-size: 14px;
+    /*font-family: "Microsoft YaHei", 微软雅黑, simHei, Arial;*/
+    padding: 0 0 30px 30px;
+}
+
+.side-tit .icon-img {
+    vertical-align: middle;
+    width: 72px;
+    height: 72px;
+}
+
+.side-tit .icon-text {
+    /*margin-left: 30px;*/
+    font-size: 16px;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+    line-height: 72px;
+    color: #333;
+    width: 138px;
+    text-align: center;
+}
+
+.side-bar a {
+    color: #333;
+    padding: 5px 38px;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+}
+
+.side-bar ul li .side-active {
+    /*color: #e6e6e6;*/
+    color: #e11408;
+    text-decoration: none;
+    /*background: #2c81ff;*/
+    /*font-weight: 700;*/
+}
+
+.side-bar a:hover {
+    color: #2c81ff;
+    /*text-decoration: none;*/
+    /*background: #e0ecff;*/
+    /*font-weight: 700;*/
+}
+.list-tab a {
+    color: #2c81ff;
+    padding: 14px 2px;
+    display: inline;
+    height: 45px;
+    line-height: 3.7;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+}
+.list-tab a:hover {
+    /*height: 45px;
+    line-height: 3.7;*/
+    font-weight: 400;
+    background: #fff;
+}
+.list-tab {
+    border-bottom: 0;
+    border-top: 1px solid #f0f0f0;
+    height: 45px;
+    padding-left: 21px;
+    width: 218px;
+}
+.list-tab div {
+    width: 104px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+.list-bottom {
+    border: 0;
+}
+
+.q-list {
+    padding: 7px 5px;
+    margin-top: 23px;
+}
+
+.tit {
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.tit .tname {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+}
+
+.tit-b {
+    border-bottom: 1px solid #ddd;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    overflow: visible;
+}
+
+.txtlist-a li {
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+.txtlist-a span {
+    color: #333;
+    font-size: 12px;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+}
+
+.go-list {
+    text-align: right;
+    padding-top: 40px;
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+    color: #333;
+    font-size: 14px;
+}
+
+.go-list a {
+    /*font-family: "Microsoft YaHei", 微软雅黑;*/
+    color: #2c81ff;
+    font-size: 14px;
+}
+.ques-show {
+    background: url(../images/bg/xia-gray.png) no-repeat 0 center;
+    text-indent: 20px;
+}
+.ques-hide {
+    background: url(../images/bg/you-gray.png) no-repeat 0 center;
+    text-indent: 20px;
+}
+.ques-tit-icon,
+.ques-tit-desc {
+    margin-top: 12px;
+    height: 20px;
+    line-height: 1;
+    /*border: 1px solid #f00;*/
+}
+.ques-tit-icon {
+    width: 12px;
+    margin-right: 7px;
+    margin-left: 12px;
+}
+.ques-tit-desc {
+    width: 150px;
+    /*line-height: 12px;*/
+}
+.ques-tit-icon img {
+    width: 12px;
+    height: 12px;
+}
+
+.js-ques-show:hover {
+    color: #2c81ff;
+}
